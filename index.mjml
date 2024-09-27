@@ -1,0 +1,121 @@
+<mjml>
+    <mj-head>
+		<mj-title>Диктант безопасности</mj-title>
+		<mj-preview>Диктант безопасности</mj-preview>
+		<mj-style>
+            
+            * {
+                margin: 0;
+                padding: 0;
+            }
+
+            p {
+                margin: 0;
+            }
+
+            h1 {
+                 all: inherit;
+		    }
+
+            .content {
+                position: relative;
+                padding-top: 128px;
+                width: 544px;
+		    }
+
+			.fire-one {
+                position: absolute;
+				top: 495px;
+                left: 82px;
+               
+            }
+
+            .fire-two {
+                position: absolute;
+				top: 623px;
+                left: 306px;
+                z-index: 1;
+                
+			}
+
+            .fire-three {
+                position: absolute;
+				top: 700px;
+                left: 175px;
+               
+			}
+
+            .medal {
+                position: absolute;
+                top: 550px;
+                left: 162px;               
+                z-index: 2;   
+            }
+
+            .illustration {
+                top: 72px;
+                left: 0;
+                position: absolute;
+                z-index: 3;  
+           }
+
+		</mj-style>
+	</mj-head>
+    <mj-body  width="600px" background-color="#E4F6FF">
+        <mj-section  padding="0 0 200px 0">
+            <mj-column>
+                <mj-image href="0" width="112px" src="img\Лого.png" align="left" padding="33px 0 0 72px" ></mj-image>
+            </mj-column>
+        </mj-section >
+        <mj-section  padding="0">
+            <mj-column  css-class="illustration">
+                <mj-image width="300px" src="img\Иллюстрация.png" padding="0" ></mj-image>
+            </mj-column>
+        </mj-section>
+        <mj-section css-class="content" background-color="#fff" padding="0" border-radius="30px">
+            <mj-column width="544px" background-color="#fff"> 
+                <mj-text padding="0" line-height="43.2px" font-size="43px" font-weight="700" font-family="Roboto" color="#3C3C3C" align="center">
+                    <h1>Иван Иванов,</h1>
+                </mj-text>
+            <mj-divider padding="8px 0" width="370px" border-width="3px" border-style="solid" border-color="#3798CD"/>
+                <mj-text padding="0" line-height="43px" font-size="36px" font-weight="700" font-family="Roboto" color="#3C3C3C" align="center">
+                    <h1>поздравляем с успешным прохождением теста!</h1>
+                </mj-text>
+                <mj-text padding="32px 0 0 0" line-height="24px" font-size="16px" font-weight="400" font-family="Roboto" color="#3C3C3C" align="center">
+                    <p>Это свидетельствует о том, что ты обладаешь<br> фундаментальными знаниями и навыками, которые<br>помогут тебе сохранить жизнь и здоровье в экстремальных<br> ситуациях.  Ты готов к действиям в условиях внезапных<br> угроз и знаешь, как правильно реагировать на различные<br> чрезвычайные ситуации</p>
+                </mj-text>
+            </mj-column>
+            <mj-column>
+                <mj-image css-class="fire-one"  width="117px" src="img\emojione-monotone_fireworks.png" padding="0"></mj-image>
+                <mj-image css-class="fire-two"  width="83px" src="img\emojione-monotone_fireworks-1.png" padding="0"></mj-image>
+                <mj-image css-class="fire-three"  width="51px" src="img\emojione-monotone_fireworks-2.png" padding="0"></mj-image>
+            </mj-column>
+            <mj-column width="220px">
+                <mj-image css-class="medal" src="img\Медаль.png" padding="0"></mj-image>
+             </mj-column>
+            <mj-column width="544px" padding="400px 0 42px 0">
+                <mj-text line-height="24px" font-size="16px" font-weight="400" font-family="Roboto" color="#3C3C3C" align="center">
+                    <p>Такое достижение подтверждает твою зрелость,<br> ответственность и готовность прийти на помощь другим<br> людям. Желаем тебе никогда не столкнуться с реальными<br> чрезвычайными ситуациями, но если это произойдет,<br> 
+                     ты будешь готов действовать уверенно и профессионально.</p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section css-class="footer"   padding="29px 0 32px 0" >
+           <mj-group width="456px"> 
+                <mj-column>
+                    <mj-image href="0" width="112px" src="img\Лого.png" padding="0 0 0 0" ></mj-image>
+                </mj-column>
+                 <mj-column width="50%">
+                    <mj-text  line-height="18px" font-size="18px" font-weight="500" font-family="Roboto" color="#3C3C3C" padding="9px 0 0 10px" align="right" >
+                        <p>Связь с нами</p>
+                    </mj-text>
+                </mj-column>
+                <mj-column padding="0"  width="0">       
+                    <mj-social padding="0">
+                        <mj-social-element  padding="0 0 0 16px" icon-size="32px" src="img\Кнопка.png" href="0" align="right"></mj-social-element>
+                    </mj-social>
+                </mj-column>
+            </mj-group> 
+        </mj-section>
+    </mj-body>
+</mjml>
